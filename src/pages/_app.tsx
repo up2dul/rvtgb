@@ -14,6 +14,12 @@ export default function App() {
 
       <main>
         <Outlet />
+
+        <section>
+          <hr />
+          <p>⚛️ A minimal React + Vite + TypeScript starter template with 📁 file-based routing.</p>
+          <p>Use this template from <a href="https://github.com/up2dul/rvtgb" target="_blank" rel="noreferrer">GitHub</a>.</p>
+        </section>
       </main>
     </>
   );
