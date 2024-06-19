@@ -1,0 +1,18 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+# Identify the package manager based on lock file presence
+if [ -f "pnpm-lock.yaml" ]; then
+  LS_CMD="pnpm lint-staged"
+elif [ -f "yarn.lock" ]; then
+  LS_CMD="yarn lint-staged"
+else
+  LS_CMD="npm run lint-staged"
+fi
+
+echo "📝 Checking types, linting, and formatting before committing..."
+$LS_CMD ||
+(
+  echo "❌ Failed. Lint, add changes, and try committing again";
+  false;
+)

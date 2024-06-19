@@ -1,0 +1,14 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+# Identify the package manager based on lock file presence
+if [ -f "pnpm-lock.yaml" ]; then
+  CL_CMD="pnpm commitlint"
+elif [ -f "yarn.lock" ]; then
+  CL_CMD="yarn commitlint"
+else
+  CL_CMD="npm run commitlint"
+fi
+
+echo "🔎 Checking the commit message..."
+$CL_CMD ${1}
