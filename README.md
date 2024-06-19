@@ -2,7 +2,7 @@
   <i><h1>⚛️ RVTGB</h1></i>
 </div>
 
-> 💡RVTGB is stands for **React Vite TypeScript Generouted Biome**.
+> ℹ️ RVTGB is stands for **React Vite TypeScript Generouted Biome**.
 
 # About
 This starter template is a minimal setup to get React working with:
@@ -15,6 +15,8 @@ And some additional development tools:
 - 🔤 [Commitlint](https://commitlint.js.org) — Make sure the commit messages are well formatted
 - 🐶 [Husky](https://typicode.github.io/husky) — A git hooks
 - 📋 [Lint Staged](https://github.com/lint-staged/lint-staged) — Running some scripts before committing
+
+> 💡 Check out [this template](https://github.com/up2dul/rvtb) instead if you prefer to use the same template without any routing library installed.
 
 # Getting Started
 
@@ -56,6 +58,6 @@ pnpm dev
 ```
 
 # Additional informations
-- Absolute paths aliases with `~`. Edit the `vite.config.ts` and `tsconfig.json` files to change the aliases.
+- Absolute paths aliases with `~`. Edit the `vite.config.ts` and `tsconfig.json` files if you want to change the aliases.
 - The `src/pages` directory is the default directory for the pages, check out the [Generouted](https://github.com/oedotme/generouted) documentation for more details.
 - This project is using Biome as the code formatter and linter instead of ESLint with Prettier. Edit the `biome.json` to change the configuration based on your needs, by checking out the [Biome](https://biomejs.dev) for more details.
