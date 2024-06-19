@@ -1,4 +1,6 @@
-<p style="text-align: center; font-size: 2em; font-weight: bold; font-style: italic;">⚛️ RVTGB</p> 
+<div align="center">
+  <i><h1>⚛️ RVTGB</h1></i>
+</div>
 
 > 💡RVTGB is stands for **React Vite TypeScript Generouted Biome**.
 
