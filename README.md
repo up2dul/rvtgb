@@ -2,7 +2,7 @@
   <i><h1>⚛️ RVTGB</h1></i>
 </div>
 
-> ℹ️ RVTGB is stands for **React Vite TypeScript Generouted Biome**.
+> ℹ️ RVTGB stands for **React Vite TypeScript Generouted Biome**.
 
 # About
 This starter template is a minimal setup to get React working with:
@@ -11,7 +11,7 @@ This starter template is a minimal setup to get React working with:
 - 📁 [Generouted](https://github.com/oedotme/generouted) — For the file-based routing
 - 📝 [Biome](https://biomejs.dev) — Code formatter and linter
 
-And some additional development tools:
+Also some additional development tools:
 - 🔤 [Commitlint](https://commitlint.js.org) — Make sure the commit messages are well formatted
 - 🐶 [Husky](https://typicode.github.io/husky) — A git hooks
 - 📋 [Lint Staged](https://github.com/lint-staged/lint-staged) — Running some scripts before committing
@@ -20,10 +20,13 @@ And some additional development tools:
 
 # Getting Started
 
-## Clone this template using one of the following methods:
+## Clone this template
+Clone this template using one of the following methods:
 
 ### 1. Use this repository as a template
-Click the green "**Use this template**" button on the top of this page to create a new repository based on this template.
+Click the "**Use this template**" button on the top of this page to create a new repository based on this template.
+
+![image](https://github.com/up2dul/rvtgb/assets/36098718/2e0c39cb-ec4e-4d69-a94c-c4ebde805487)
 
 > **Disclosure**: by using this repository as a template, there will be an attribution on your repository.
 
@@ -43,7 +46,7 @@ npx degit up2dul/rvtgb my-new-project
 ```
 
 ## Usage
-> Requires [Node.js](https://nodejs.org) >=18.x And [pnpm](https://pnpm.io) >=8.x is recommended as the package manager.
+> Requires [Node.js](https://nodejs.org) `>=18.x`. And [pnpm](https://pnpm.io) `>=8.x` is recommended as the package manager.
 
 ### Install dependencies
 Make sure you have already in the project directory.
